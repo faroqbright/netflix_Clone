@@ -4,8 +4,6 @@ import User2 from "../../assets/User2.png";
 import User3 from "../../assets/User3.jfif";
 import User4 from "../../assets/User4.jpg";
 import User5 from "../../assets/User5.png";
-import Github from "../../assets/Github.png";
-import linkedIn from "../../assets/linkedIn.png";
 import { useDispatch } from "react-redux";
 import { setProfile } from "../../Store/profile";
 import { Link } from "react-router-dom";
@@ -53,9 +51,9 @@ const Profile = () => {
             );
           })}
         </ul>
-        <span className="justify-centern absolute right-10 top-[4.8rem] flex flex-col items-center font-extralight text-white md:right-32 md:top-[5rem]">
+        <span className="justify-centern absolute right-10 top-[4.8rem] flex flex-col items-center font-extralight text-white md:right-32 md:top-[2rem]">
           <button
-            className="rounded-xl border bg-[#101010f9] px-3    py-1 text-3xl font-bold md:mt-16 md:px-8 md:py-6   "
+            className="rounded-xl border bg-[#101010f9] px-3 py-1 text-3xl font-bold md:mt-16 md:px-10 md:py-8"
             onClick={() => {
               count > 2
                 ? ""
@@ -104,38 +102,7 @@ const Profile = () => {
           </svg>
           <span className="ml-2">App Settings</span>
         </li>
-
-        <li
-          className="mx-3 mb-3 flex h-12 cursor-pointer items-center rounded-md bg-[#151414e9] px-2 md:py-8"
-          onClick={() =>
-            window.open("https://www.linkedin.com/in/milan-parmar-/")
-          }
-        >
-          <img
-            className="w-8 rounded-full bg-white md:w-12"
-            src={linkedIn}
-            alt="LinkedIn image"
-          />
-          <span className="ml-3">Visit My LinkedIn</span>
-        </li>
-        <li
-          className="mx-3 mb-3 flex h-12 cursor-pointer items-center rounded-md bg-[#151414e9] px-2 md:py-8"
-          onClick={() =>
-            window.open("https://github.com/Milan-98?tab=repositories")
-          }
-        >
-          <img
-            className="w-8 rounded-full bg-white md:w-12"
-            src={Github}
-            alt="github image"
-          />
-          <span className="ml-3">Visit My GitHub</span>
-        </li>
       </ul>
-
-      <p className="absolute bottom-32 w-full text-center  font-mono text-xl text-neutral-700">
-        Sign Out
-      </p>
       <p
         className={`fixed bottom-20 left-20 animate-pulse rounded-lg bg-[#131212] px-10 py-3 font-thin text-white md:left-[36.4rem] ${
           display ? "block" : "hidden"
