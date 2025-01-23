@@ -31,20 +31,6 @@ Alternatively, you can clone this repository using the following command:
 ```
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 ```
-## Demo Link
-
-Check out the live demo of the Netflix clone [here](https://net-flix-clone-fawn.vercel.app/).
-
-## Screenshots
-
-Here are some screenshots of the Netflix clone:
-
-![GETFLIX](https://user-images.githubusercontent.com/114464208/235608449-094e1d4c-c168-4855-8181-5b2f482538ea.png)
-![GETFLIX (3)](https://user-images.githubusercontent.com/114464208/235608502-58a7d8f3-e558-46ae-9caf-25c6cdc5fc23.png)
-![GETFLIX (4)](https://user-images.githubusercontent.com/114464208/235608523-65f07bab-3cb4-4b62-ab73-975b7fd224c2.png)
-![GETFLIX (6)](https://user-images.githubusercontent.com/114464208/235608569-f2c821b6-4e67-4ec3-8def-f0fc667be59c.png)
-![GETFLIX (7)](https://user-images.githubusercontent.com/114464208/235608547-373f904b-3ae0-4b37-bada-15d089eb16d9.png)
-![GETFLIX (9)](https://user-images.githubusercontent.com/114464208/235609453-3692df29-5c03-496e-a87d-f0eb18c1fd1f.png)
 
 ## Usage
 
@@ -84,15 +70,6 @@ The website is styled using the Tailwind CSS framework. Tailwind provides a rang
 
 Please note that the Netflix clone does not include any actual movies or TV shows, and is intended for demonstration purposes only.
 
-
-
-## Project Description
-
-The Netflix clone was built as a personal project to practice my React skills and explore various React-related packages and technologies. The project includes several components, such as the Navbar, Banner, Row, and MovieCard components, and uses Redux for state management.
-
-The Navbar component is responsible for displaying the navigation bar at the top of the page. The navigation bar includes links to the landing page, browsing page, and the user's watchlist.
-
-date: 2 May 2023 141 day Of Webdev
 
 ## Contributing
 
